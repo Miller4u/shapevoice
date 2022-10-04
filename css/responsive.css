@@ -1,0 +1,47 @@
+
+
+@media only screen and (min-width:375px) and (max-width:991px){
+    
+    /* This media querry will be active for device below 992px and will be inactive from 992px*/
+    .hidee {
+        display: none;
+       }
+
+       .font-3{
+        font-size: 2.75rem;
+    }
+
+    .ml-minus{  /* we decided to remove the -12 used in the index page to put the image in the minus direction . now putting it to zero to make our mobile version responsive on media querry*/
+        margin-left: -0rem;
+    }
+
+    .mt-half{
+        margin-top: 5%;
+    }
+
+   
+    .mobile-hide{
+        display: none;
+    }
+
+    
+    .p-0{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:480px){
+    /* we are creating another one for mobile version refering to our called css and bostrap css mentioned in our index page */
+    .d-flex1{
+        display: flex;
+flex-direction: column;
+    }
+    
+    .mt-mobile{
+        /* This class will only be available for screen sizes below 481px*/
+        margin-top: 1.5rem;
+      }
+    .mobile-between{
+        justify-content: space-between;
+    }
+}

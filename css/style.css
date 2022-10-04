@@ -1,0 +1,38 @@
+.child1{
+    height: 200px;
+    width: 350px;
+}
+
+.child2{
+    height: 420px;
+    width: 350px;
+}
+
+.child3{
+    height: 310px;
+    width: 350px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.bg-violet{
+    background-color: #5f3dc4;
+}
+
+.btn-primary{
+    background-color: #5f3dc4;
+    border-color:#5f3dc4;
+}
+
+.btn-primary:hover{
+    background-color: #7048e8;
+    border-color: #7048e8;
+}
+
